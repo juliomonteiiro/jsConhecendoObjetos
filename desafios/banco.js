@@ -26,4 +26,9 @@ function mostrarSaldo(cliente) {
 cliente.conta.depositar(500);
 cliente.conta.sacar(200);
 
-mostrarSaldo(cliente)
+mostrarSaldo(cliente);
+
+cliente.conta.depositar(1000);
+cliente.conta.sacar(500);
+
+mostrarSaldo(cliente);
